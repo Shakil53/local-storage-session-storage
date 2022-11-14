@@ -15,7 +15,10 @@ body {
     font-weight: 700;
     font-family:'Times New Roman', Times, serif;
     font-size: 60px;
-    color: rgb(243, 92, 22);
+    color: rgb(255, 255, 255);
+    padding-left: 380px;
+    padding-top: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 #input-field{
     border: none;
