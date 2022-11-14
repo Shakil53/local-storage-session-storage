@@ -15,5 +15,43 @@ body {
     font-weight: 700;
     font-family:'Times New Roman', Times, serif;
     font-size: 60px;
-    color: rgb(211, 77, 15);
+    color: rgb(243, 92, 22);
+}
+#input-field{
+    border: none;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: azure;
+
+}
+.btn {
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.btn:hover{
+    color: black;
+    background-color: azure;
+    transition: .03s;
+
+}
+
+.btn1 {
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 700;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    color: black;
+    background-color: azure;
+
 }
