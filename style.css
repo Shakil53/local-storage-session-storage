@@ -1,0 +1,19 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url(new.jpg) no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.container {
+    margin-left: 500px;
+    padding: 80px;
+}
+
+.header {
+    /* margin-right: 80px; */
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(211, 77, 15);
+}
