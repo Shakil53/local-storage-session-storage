@@ -7,7 +7,7 @@ body {
 }
 .container {
     margin-left: 500px;
-    padding: 80px;
+    padding: 10px;
 }
 
 .header {
@@ -18,6 +18,16 @@ body {
     color: rgb(255, 255, 255);
     padding-left: 380px;
     padding-top: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.header1 {
+    /* margin-right: 80px; */
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(87, 221, 248);
+    padding-left: 500px;
+    padding-top: 5px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 #input-field{
