@@ -48,15 +48,6 @@ body {
     padding-left: 2px;
 
 }
-
-
-
-
-
-#input-field:hover{
-
-
-}
 .btn {
     color: antiquewhite;
     background-color: black;
@@ -87,4 +78,9 @@ body {
     color: black;
     background-color: azure;
 
+}
+#addProducts{
+    font-weight: 700;
+    color:rgb(0, 0, 0)
+    
 }
