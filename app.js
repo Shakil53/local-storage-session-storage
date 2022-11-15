@@ -1,12 +1,12 @@
 const addItem = () => {
     const namefield = document.getElementById('input-field');
-    const name1 = namefield.value;
-    if (!name1) {
+    const name = namefield.value;
+    if (!name) {
         return;
     }
 
     // display ui
-    displayProduct(name1);
+    displayProduct(name);
 
     // add to local storage
     addProductToCart(name)
@@ -15,10 +15,10 @@ const addItem = () => {
 
 }
 
-const displayProduct = name2 => {
+const displayProduct = name => {
     const ul = document.getElementById('addProducts');
     const li = document.createElement('li');
-    li.innerText = name2;
+    li.innerText = name;
     ul.appendChild(li);
 }
 
